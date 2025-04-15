@@ -17,13 +17,6 @@
   virtualisation.docker.enable = true;
   virtualisation.docker.enableNvidia = true;
 
-  hardware.nvidia = {
-    modesetting.enable = true;
-    powerManagement.enable = false;
-    open = false;
-    nvidiaSettings = true;
-  };
-
   # Network configuration
   networking = {
     firewall.enable = false;
